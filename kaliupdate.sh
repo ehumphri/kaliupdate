@@ -8,6 +8,7 @@ apt-get -y update && apt-get -y upgrade && apt autoremove && apt-get -y dist-upg
 
 ## install additional shit
 
+cd /opt
 # Install winshock-test
 git clone https://github.com/anexia-it/winshock-test.git /opt/winshock-test
 # install rdp-sec-check
