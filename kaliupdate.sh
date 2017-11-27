@@ -9,10 +9,10 @@ apt-get -y update && apt-get -y upgrade && apt autoremove && apt-get -y dist-upg
 ## install additional shit
 
 # Install winshock-test
-git clone https://github.com/anexia-it/winshock-test.git 
+git clone https://github.com/anexia-it/winshock-test.git /opt/winshock-test
 # install rdp-sec-check
 cpan Ecoding::BER
-git clone https://github.com/portcullislabs/rdp-sec-check
+git clone https://github.com/portcullislabs/rdp-sec-check /opt/rdp-sec-check
 #install Eyewitness
-git clone https://github.com/ChrisTruncer/EyeWitness.git
-/bin/sh ./EyeWitness/setup/setup.sh
+git clone https://github.com/ChrisTruncer/EyeWitness.git /opt/EyeWitness
+/bin/sh /opt/EyeWitness/setup/setup.sh
