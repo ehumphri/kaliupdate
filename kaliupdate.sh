@@ -11,7 +11,7 @@ apt-get -y update && apt-get -y upgrade && apt autoremove && apt-get -y dist-upg
 # Install winshock-test
 git clone https://github.com/anexia-it/winshock-test.git 
 # install rdp-sec-check
-cpan ecoding::ber
+cpan Ecoding::BER
 git clone https://github.com/portcullislabs/rdp-sec-check
 #install Eyewitness
 git clone https://github.com/ChrisTruncer/EyeWitness.git
