@@ -6,8 +6,13 @@ htop nmap nfs-common libsqlite3-dev open-vm-tools-desktop fuse linux-headers-amd
 metasploit-framework
 apt-get -y update && apt-get -y upgrade && apt autoremove && apt-get -y dist-upgrade
 
-# install additional shit
+## install additional shit
+
+# Install winshock-test
 git clone https://github.com/anexia-it/winshock-test.git 
+# install rdp-sec-check
+cpan ecoding::ber
 git clone https://github.com/portcullislabs/rdp-sec-check
+#install Eyewitness
 git clone https://github.com/ChrisTruncer/EyeWitness.git
 /bin/sh ./EyeWitness/setup/setup.sh
