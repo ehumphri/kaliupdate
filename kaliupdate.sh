@@ -17,3 +17,5 @@ git clone https://github.com/portcullislabs/rdp-sec-check /opt/rdp-sec-check
 #install Eyewitness
 git clone https://github.com/ChrisTruncer/EyeWitness.git /opt/EyeWitness
 /bin/sh /opt/EyeWitness/setup/setup.sh
+#Cisco Smart Install Check
+git clone https://github.com/Cisco-Talos/smi_check/blob/master/smi_check.py /opt/smi_check
